@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Tour Booking Form</h1>
+      </header>
+      <main>
+        <form action="#">
+          <div>
+            <label for="name lastname">
+              <p>Name</p>
+              <input type="text" id="name" placeholder="First Name" />
+              <input type="text" id="lastname" placeholder="Last Name" />
+            </label>
+          </div>
+          <div>
+            <label for="email">
+              <p>Email</p>
+              <input type="email" id="email" placeholder="name@mail.ru" />
+            </label>
+          </div>
+          <div>
+            <label for="phone">
+              <p>Phone</p>
+              <input type="number" id="phone" placeholder="### ### ####" />
+            </label>
+          </div>
+          <div>
+            <label for="date">
+              <p>When are you planning to vizit?</p>
+              <input type="date" class="calender" id="date" />
+            </label>
+          </div>
+          <div>
+            <label for="number">
+              <p>How many people are in your group?</p>
+              <input type="text" id="number" />
+            </label>
+          </div>
+          <div>
+            <p>Which tour are you most interested in?</p>
+            <select>
+              <option label="*Please select*" value="1" selected></option>
+              <option>Kairo</option>
+              <option>Scharm asch-Schaich</option>
+              <option>Hurghada</option>
+              <option>Luxor</option>
+              <option>Assuan</option>
+            </select>
+          </div>
+          <div class="checkbox">
+            <p>What is the best way to contact you?</p>
+            <label for="chb">
+              <input type="checkbox" class="checkbox-item" id="chb" />
+              <span class="check-style">Phone</span>
+            </label>
+            <label for="chb">
+              <input type="checkbox" class="checkbox-item" id="chb" />
+              <span class="check-style">Email</span>
+            </label>
+            <label for="chb">
+              <input type="checkbox" class="checkbox-item" id="chb" />
+              <span class="check-style">Either</span>
+            </label>
+          </div>
+          <div class="radio">
+            <p>If phone, when is the best time of day for a call-back?</p>
+            <label>
+              <input name="rd" class="radio-box" type="radio" />
+              <span class="radio-style">8 - 11 AM</span>
+            </label>
+            <label>
+              <input name="rd" class="radio-box" type="radio" />
+              <span class="radio-style">12 - 4 PM</span>
+            </label>
+            <label>
+              <input name="rd" class="radio-box" type="radio" />
+              <span class="radio-style">6 - 10 PM</span>
+            </label>
+          </div>
+          <div class="textarea">
+            <label for="textarea">
+              <p>Anything else we should know?</p>
+              <textarea name="message" id="textarea"> </textarea>
+            </label>
+          </div>
+        </form>
+        <div class="button">
+          <button>Send</button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

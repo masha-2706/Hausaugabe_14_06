@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.wrapper {
+  width: 643px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 15px 0px #3263CD;
+  border-radius: 10px;
+  padding: 20px 34.84px 5px 35.16px;
+}
+header {
+  background-color: #87cefa;
+  color: white;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+form div {
+  width: 100%;
+}
+h1 {
+  font-family: Inter;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 65px;
+  text-align: center;
+  padding: 74px 30px 60px 60px;
+}
+input {
+  width: 100%;
+  height: 34px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 9px 6px;
+}
+p {
+  font-family: Inter;
+  font-size: 16.2px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #808080;
+  margin-bottom: 10px;
+}
+select {
+  width: 100%;
+  height: 34px;
+  border: 1px solid #cccccc;
+  resize: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.checkbox,
+.radio {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.checkbox-item,
+.radio-box  {
+  width: 13px;
+  height: 13px;
+  margin-right: 5px;
+}
+.checkbox label,
+.radio label {
+  width: 365px;
+}
+.checkbox p,
+.radio p {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.radio p,
+.checkbox p {
+  font-family: Inter;
+  font-size: 14.34px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #808080;
+  margin-bottom: 10px;
+}
+textarea {
+  width: 573px;
+  height: 56px;
+  margin-top: 5px;
+  margin-bottom: 22px;
+  border: 1px solid #cccccc;
+  resize: none;
+  border-radius: 5px;
+}
+.textarea p {
+  font-family: Inter;
+  font-size: 14.74px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #808080;
+}
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+button {
+  width: 157px;
+  height: 42px;
+  background-color: #3263cd;
+  font-family: Inter;
+  font-size: 15.38px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  padding: 10px 3.21px 10px 9.79px;
+  border: rgba(50, 99, 205, 1);
+  border-radius: 5px;
+  color: white;
+}
